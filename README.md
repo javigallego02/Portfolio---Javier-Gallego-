@@ -1,6 +1,6 @@
 # Portfolio — Javier Gallego  
 
-Welcome to my Data Science Portfolio!  
+Welcome to my Data Science Portfolio
 This repository highlights my capstone project and includes my resume for internship and job applications.  
 
 ---
