@@ -32,14 +32,11 @@
     h2 { margin: 0 0 16px; font-size: clamp(22px, 3vw, 28px); }
     .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 18px; }
     .grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
-    .grid.two { grid-template-columns: repeat(2, minmax(0,1fr)); }
     .muted { color: var(--muted); }
     .kpis { display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 12px; margin-top: 8px; }
     .kpi { background: #0e121a; border: 1px solid var(--border); border-radius: 12px; padding: 12px; }
-    img { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); background: #0e121a; }
     footer { padding: 28px 0; text-align: center; color: var(--muted); }
     code { background: #0e121a; padding: 2px 6px; border-radius: 6px; border: 1px solid var(--border); }
-    @media (max-width: 720px) { .grid.two { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
@@ -63,7 +60,6 @@
         <p class="muted">Aspiring Data Science & Operations Research Intern</p>
         <h1>Turning data into decisions — Python · SQL · Machine Learning · Visualization</h1>
         <div style="display:flex; gap:12px; flex-wrap: wrap; margin-top: 12px;">
-          <!-- TODO: Replace YOUR_RESUME_PATH and YOUR_REPO_URL below after uploading -->
           <a class="btn primary" href="resume/Javier_Gallego_MITRE_Resume.pdf" target="_blank" rel="noopener">Download Résumé</a>
           <a class="btn" href="#capstone">View Capstone</a>
         </div>
@@ -96,8 +92,7 @@
             </p>
             <p>
               <strong>Source code:</strong>
-              <!-- TODO: Replace with your repository URL -->
-              <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank" rel="noopener">GitHub repository</a>
+              <a href="https://github.com/javigallego02/Portfolio---Javier-Gallego-" target="_blank" rel="noopener">GitHub repository</a>
             </p>
             <ul>
               <li>Processed match-level datasets with Python and SQL</li>
@@ -108,11 +103,6 @@
               <div class="kpi"><strong>Tech:</strong> Python, Pandas, SQL, Plotly, scikit-learn</div>
               <div class="kpi"><strong>Focus:</strong> EDA, Modeling, Visualization</div>
             </div>
-          </div>
-          <div class="grid two">
-            <!-- TODO: Put your screenshots in /images and update file names below -->
-            <img src="images/dashboard_1.png" alt="Capstone dashboard screenshot 1" />
-            <img src="images/dashboard_2.png" alt="Capstone dashboard screenshot 2" />
           </div>
         </div>
       </div>
@@ -134,8 +124,8 @@
           <h2>Contact</h2>
           <p class="muted">Lakeland, FL · javi.gallego.murcia@gmail.com · (574) 265-1110</p>
           <p>
-            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener">LinkedIn</a> ·
-            <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/javier-gallego-5934692a3/" target="_blank" rel="noopener">LinkedIn</a> ·
+            <a href="https://github.com/javigallego02" target="_blank" rel="noopener">GitHub</a>
           </p>
         </div>
       </div>
