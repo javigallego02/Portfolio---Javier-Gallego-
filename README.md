@@ -32,5 +32,5 @@ This project analyzes SpaceX Falcon 9 launches to predict the success of first-s
 
 ## 📬 Contact  
 - 📧 Email: javigallego02@gmail.com  
-- 💼 LinkedIn: [linkedin.com/in/javier-gallego](https://www.linkedin.com/in/javier-gallego)  
+- 💼 LinkedIn: [linkedin.com/in/javier-gallego] (https://www.linkedin.com/in/javier-gallego-5934692a3/)
 - 🌍 GitHub: [github.com/javigallego02](https://github.com/javigallego02)  
