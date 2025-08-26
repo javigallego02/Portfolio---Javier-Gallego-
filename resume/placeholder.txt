@@ -102,6 +102,11 @@
               <div class="kpi"><strong>Tech:</strong> Python, Pandas, SQL, Plotly, scikit-learn</div>
               <div class="kpi"><strong>Focus:</strong> EDA, Modeling, Visualization</div>
             </div>
+
+            <!-- Placeholder for dashboard images -->
+            <div style="margin-top:16px; padding:24px; border:2px dashed var(--border); text-align:center; color:var(--muted); font-style:italic;">
+              Dashboard screenshots coming soon
+            </div>
           </div>
         </div>
       </div>
