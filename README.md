@@ -26,7 +26,7 @@ This project analyzes SpaceX Falcon 9 launches to predict the success of first-s
 
 ## 📄 Resume  
 
-[📥 Download my Resume (PDF)](Javier_Gallego_MITRE_Resume.pdf)  
+[📄 Download My Résumé](https://github.com/javigallego02/Portfolio---Javier-Gallego-/blob/main/Javier_Gallego_MITRE_Resume.pdf?raw=true)  
 
 ---
 
