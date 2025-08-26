@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Javier Gallego — Data Science Portfolio</title>
+  <meta name="description" content="Portfolio of Javier Gallego: aspiring Data Science & Operations Research intern. Capstone: WTA tennis analytics dashboard." />
+  <style>
+    :root {
+      --bg: #0b0d12;
+      --card: #121621;
+      --text: #e9eef7;
+      --muted: #a8b3c7;
+      --accent: #6ea8fe;
+      --border: #23293a;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 980px; margin: 0 auto; padding: 24px; }
+    header { position: sticky; top: 0; background: rgba(11,13,18,0.85); backdrop-filter: blur(6px); border-bottom: 1px solid var(--border); z-index: 10; }
+    nav { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    nav .brand { font-weight: 700; letter-spacing: 0.3px; }
+    nav .links { display: flex; gap: 16px; flex-wrap: wrap; }
+    .btn { display: inline-block; padding: 10px 14px; border-radius: 12px; border: 1px solid var(--border); background: var(--card); color: var(--text); font-weight: 600; }
+    .btn.primary { background: var(--accent); color: #0b0d12; border-color: transparent; }
+    .hero { padding: 56px 0 36px; border-bottom: 1px solid var(--border); background: radial-gradient(85% 60% at 50% 0%, rgba(110,168,254,0.08), transparent 60%); }
+    .hero h1 { margin: 12px 0 8px; font-size: clamp(28px, 4.5vw, 44px); line-height: 1.1; }
+    .hero p { margin: 0 0 18px; color: var(--muted); font-size: 1.05rem; }
+    section { padding: 36px 0; border-bottom: 1px solid var(--border); }
+    h2 { margin: 0 0 16px; font-size: clamp(22px, 3vw, 28px); }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 18px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 16px; }
+    .grid.two { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    .muted { color: var(--muted); }
+    .kpis { display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 12px; margin-top: 8px; }
+    .kpi { background: #0e121a; border: 1px solid var(--border); border-radius: 12px; padding: 12px; }
+    img { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--border); background: #0e121a; }
+    footer { padding: 28px 0; text-align: center; color: var(--muted); }
+    code { background: #0e121a; padding: 2px 6px; border-radius: 6px; border: 1px solid var(--border); }
+    @media (max-width: 720px) { .grid.two { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">Javier Gallego</div>
+        <div class="links">
+          <a href="#about">About</a>
+          <a href="#capstone">Capstone</a>
+          <a href="#resume">Résumé</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="muted">Aspiring Data Science & Operations Research Intern</p>
+        <h1>Turning data into decisions — Python · SQL · Machine Learning · Visualization</h1>
+        <div style="display:flex; gap:12px; flex-wrap: wrap; margin-top: 12px;">
+          <!-- TODO: Replace YOUR_RESUME_PATH and YOUR_REPO_URL below after uploading -->
+          <a class="btn primary" href="resume/Javier_Gallego_MITRE_Resume.pdf" target="_blank" rel="noopener">Download Résumé</a>
+          <a class="btn" href="#capstone">View Capstone</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container grid">
+        <div class="card">
+          <h2>About Me</h2>
+          <p class="muted">
+            I am a graduate student pursuing an MBA in <strong>Data Science & Sport Management</strong> with a strong foundation in
+            <strong>statistics, applied mathematics, and machine learning</strong>. Through hands-on projects, I have applied
+            <strong>Python, SQL, and visualization tools</strong> to analyze complex datasets, build interactive dashboards, and develop
+            predictive models. I’m passionate about applying <strong>quantitative methods</strong> to support research and decision-making.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="capstone">
+      <div class="container">
+        <h2>Capstone Project — WTA Women’s Tennis Data Dashboard</h2>
+        <div class="grid">
+          <div class="card">
+            <p>
+              This project analyzed women’s professional tennis data to uncover patterns in player performance and match outcomes.
+              Using <strong>Python, SQL, and Plotly</strong>, I collected and cleaned datasets, applied <strong>logistic regression</strong> to predict match results,
+              and built an <strong>interactive dashboard</strong> to visualize trends across players and tournaments.
+            </p>
+            <p>
+              <strong>Source code:</strong>
+              <!-- TODO: Replace with your repository URL -->
+              <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank" rel="noopener">GitHub repository</a>
+            </p>
+            <ul>
+              <li>Processed match-level datasets with Python and SQL</li>
+              <li>Interactive Plotly dashboard for player and tournament trends</li>
+              <li>Prediction of match outcomes via logistic regression</li>
+            </ul>
+            <div class="kpis">
+              <div class="kpi"><strong>Tech:</strong> Python, Pandas, SQL, Plotly, scikit-learn</div>
+              <div class="kpi"><strong>Focus:</strong> EDA, Modeling, Visualization</div>
+            </div>
+          </div>
+          <div class="grid two">
+            <!-- TODO: Put your screenshots in /images and update file names below -->
+            <img src="images/dashboard_1.png" alt="Capstone dashboard screenshot 1" />
+            <img src="images/dashboard_2.png" alt="Capstone dashboard screenshot 2" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume">
+      <div class="container grid">
+        <div class="card">
+          <h2>Résumé</h2>
+          <p class="muted">Download a PDF copy of my résumé tailored for Data Science internships.</p>
+          <p><a class="btn primary" href="resume/Javier_Gallego_MITRE_Resume.pdf" target="_blank" rel="noopener">Download Résumé (PDF)</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container grid">
+        <div class="card">
+          <h2>Contact</h2>
+          <p class="muted">Lakeland, FL · javi.gallego.murcia@gmail.com · (574) 265-1110</p>
+          <p>
+            <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank" rel="noopener">LinkedIn</a> ·
+            <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener">GitHub</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> Javier Gallego · Built with HTML/CSS on GitHub Pages</div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
